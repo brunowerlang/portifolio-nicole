@@ -1,0 +1,33 @@
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.apresentacao__principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apresentacao__principal-img {
+    height: 500px;
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.apresentacao__multi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apresentacao__multi-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}

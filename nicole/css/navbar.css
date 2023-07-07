@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.navbar__titulo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    background-color: #fff;
+    
+}
+
+.navbar__menu {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    background-color: #cecece;
+    padding: 20px 200px;
+    border-top-left-radius: 100px;
+}
+
+.navbar__menu-buttons {
+    margin: 25px;
+    text-decoration: none;
+    color: #fff;
+}
