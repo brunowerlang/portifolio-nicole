@@ -2,32 +2,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}
-
-.apresentacao__principal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 10px;
+    padding-right: 10px;
 }
 
 .apresentacao__principal-img {
-    height: 500px;
-    width: 500px;
-    margin-top: 15px;
-    margin-left: 20px;
+    height: 550px;
+    width: 450px;
+    margin-left: 22px;
 }
 
 .apresentacao__multi {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 13px; 
+    margin: 0 auto;
+    
 }
 
-.apresentacao__multi-img {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50px;
-    height: 50px;
+.apresentacao__multi-img {  
+    width: 210px;
+    height: 270px;
 }

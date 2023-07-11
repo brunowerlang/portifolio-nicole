@@ -18,15 +18,18 @@
 }
 
 .navbar__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    background-color: #cecece;
-    padding: 20px 200px;
-    border-top-left-radius: 100px;
+    background-color: #e7e7e7;
+    padding: 10px 100px;
+    border-top-left-radius: 60px;
 }
 
-.navbar__menu-buttons {
-    margin: 25px;
+.navbar__menu-info {
+    margin: 10px;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
 }
